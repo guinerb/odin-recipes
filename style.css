@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=UnifrakturMaguntia&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;500&family=UnifrakturMaguntia&display=swap');
+body {
+    font-family: Montserrat, Helvetica, sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+h1 {
+    font-family: 'UnifrakturMaguntia', cursive;
+    text-align: center;
+    font-size: 85px;
+    margin: 20px 0 20px 0;
+    padding: 0;
+}
+
+h2 {
+    font-size: 23px;
+}
+
+.video-tut {
+    margin: 100px 0 50px 0;
+    text-align: center;
+    color: #3B5EEF;
+}
+
+#iframe-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+div.item {
+    vertical-align: top;
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+}
+
+img {
+    display: block;
+    margin-top: 0;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0;
+    width: 25%;
+    height: auto;
+}
+
+.caption {
+    display: block;
+    font-size: 12px;
+}
+
+ul {
+    text-align: center;
+    list-style-position: inside;
+}
+
+li {
+    display:inline-block;
+    list-style: none;
+}
+
+li a {
+    margin: 20px 180px 0 250px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.ingredients-list,
+.steps-list {
+    list-style-position: inside;
+}
+
+.ingredients-list li,
+.steps-list li {
+    display: list-item;
+    text-align: left;
+    line-height: 1.5;
+}
+
+#lasagna {
+    background-color: #FDE3D5;
+}
+
+#potatoes {
+    background-color: #FDF8D5;
+}
+
+#mortadella {
+    background-color: #FCBDC6;
+}
